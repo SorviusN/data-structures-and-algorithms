@@ -7,6 +7,17 @@ namespace stackandqueue
     {
       static void Main(string[] args)
       {
+
+      Stack<string> stack = new Stack<string>();
+
+      stack.Push("Butter");
+      stack.Push("Milk");
+      stack.Push("Eggs");
+
+      string popped = stack.Pop();
+
+      Console.WriteLine($"{popped} was popped off the stack.");
+
       Queue<int> q = new Queue<int>();
       q.Enqueue(1);
       Console.WriteLine(q.Peek());
