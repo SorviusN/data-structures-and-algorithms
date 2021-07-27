@@ -36,7 +36,6 @@ namespace stackandqueue.Classes
       // Setting the Top of the stack to the next value.
       Top = currentTop.Next;
 
-
       // get back the new value.
       return currentTop.Value;
     }
