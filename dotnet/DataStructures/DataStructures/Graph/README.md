@@ -18,3 +18,5 @@ Create a graph from scratch without using the Graph from System.Collections.
 - GetSize: Gets the size of the graph within integer format.
 
 - Print: Shows the graph.
+
+source: https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html
